@@ -1,0 +1,229 @@
+<template lang="pug">
+.home
+  plug(_name="module98" _src="https://template.owo.ink/d998fae6830db2ac.owo")
+  .content-box.w1000
+    .editor 最近几年，马拉松赛事一直在蓬勃发展，这两年的赛事也在迅速增长，参加的人数也增加22%，这为线上马拉松开展提供了人口基础和赛事基础。第二个基础，是智能设备、运动软件丰富发展，所以赛事很方便地立刻从线下转到了线上。这也是让线上马拉松能够火起来的条件。
+    .top-bar
+    .content
+      h1 线上马拉松能否成为全民健身新起点
+      //- 迷你列表
+      ul.mini-list.clear
+        li
+          a(href="#" target="_blank") 线上跑马引领新风潮 移动互联拓展新空间
+        li
+          a(href="#" target="_blank") 互联网运动异军突起 线上马拉松为何火爆？
+        li
+          a(href="#" target="_blank") 互联网运动异军突起 线上马拉松为何火爆？
+        li
+          a(href="#" target="_blank") 线上跑马引领新风潮 移动互联拓展新空间
+      //- 人物介绍卡片
+      ul.max-list.clear
+        li
+          a(href="#" target="_blank")
+            img(src="@|people.png|" width="278" height="157")
+            h2 谭杰
+            p 新体育网专职编委<br>新体育网专职编委
+        li
+          a(href="#" target="_blank")
+            img(src="@|people.png|")
+            h2 谭杰
+            p 新体育网专职编委<br>新体育网专职编委
+        li
+          a(href="#" target="_blank")
+            img(src="@|people.png|")
+            h2 谭杰
+            p 新体育网专职编委<br>新体育网专职编委
+        li
+          a(href="#" target="_blank")
+            img(src="@|people.png|")
+            h2 谭杰
+            p 新体育网专职编委<br>新体育网专职编委
+        li
+          a(href="#" target="_blank")
+            img(src="@|people.png|")
+            h2 谭杰
+            p 新体育网专职编委<br>新体育网专职编委
+        li
+          a(href="#" target="_blank")
+            img(src="@|people.png|")
+            h2 谭杰
+            p 新体育网专职编委<br>新体育网专职编委
+        li
+          a(href="#" target="_blank")
+            img(src="@|people.png|")
+            h2 谭杰
+            p 新体育网专职编委<br>新体育网专职编委
+        li
+          a(href="#" target="_blank")
+            img(src="@|people.png|")
+            h2 谭杰
+            p 新体育网专职编委<br>新体育网专职编委
+        li
+          a(href="#" target="_blank")
+            img(src="@|people.png|")
+            h2 谭杰
+            p 新体育网专职编委<br>新体育网专职编委
+      .title-bar 往期回顾
+      .tab-box.clear
+        .item-select 为体育强国夯实法治之基
+        .item-select 少年强中国强
+        .item-select 为体育强国夯实法治之基
+        .item-select 少年强中国强
+      plug(_name="module141" _src="https://template.owo.ink/dd34f42b0698caf4.owo")
+      .tab-box.clear
+        .item-select 为体育强国夯实法治之基
+        .item-select 少年强中国强
+        .item-select 为体育强国夯实法治之基
+        .item-select 少年强中国强
+      plug(_name="module141" _src="https://template.owo.ink/dd34f42b0698caf4.owo")
+  plug(_name="module2" _src="https://template.owo.ink/060579f0b4f1bcaa.owo")
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+
+    }
+  }
+</script>
+
+
+<style lang="less">
+.home {
+  background-image: url('@|bg.png|');
+  display: block;
+  background-size: 1920px auto;
+  background-repeat: no-repeat;
+  background-position: center top;
+  .content-box {
+    margin-top: 15vw;
+    .content {
+      background-color: white;
+      padding-top: 20px;
+      padding-bottom: 10px;
+      h1 {
+        background-repeat: no-repeat;
+        line-height: 52px;
+        background-position: left center;
+        padding-left: 110px;
+        width: 600px;
+        display: block;
+        margin-left: 165px;
+      }
+    }
+  }
+}
+
+.editor {
+  width: 660px;
+  color: white;
+  margin: 0 auto;
+  line-height: 23px;
+  text-indent: 2em;
+  background-repeat: no-repeat;
+  padding-left: 80px;
+  background-image: url('@|editer.png|');
+}
+.top-bar {
+  background-color: #8754c3;
+  height: 8px;
+  opacity: 0.8;
+  margin-top: 58px;
+  
+}
+h1 {
+  color: #3844ac;
+  background-image: url('@|title-bg.png|');
+}
+.mini-list {
+  color: #868585;
+  width: 680px;
+  display: block;
+  margin: 10px auto;
+  padding-bottom: 10px;
+  a {
+    color: #868585;
+    display: block;
+  }
+  a:hover {
+    color: #3844ac;
+  }
+  li {
+    float: left;
+    width: 50%;
+    line-height: 24px;
+    height: 24px;
+    overflow: hidden;
+  }
+}
+.max-list {
+  width: 894px;
+  margin: 0 auto;
+  li {
+    float: left;
+    margin: 0 10px;
+    a {
+      display: block;
+    }
+    a:hover {
+      text-decoration: none;
+    }
+    h2 {
+      border-bottom: 1px solid #3844ac;
+      line-height: 28px;
+      color: #3844ac;
+    }
+    p {
+      color: #868585;
+      line-height: 18px;
+      font-size: 14px;
+      margin: 5px 0;
+      height: 36px;
+      overflow: hidden;
+    }
+  }
+  li:hover {
+    img {
+      box-shadow: 1px 2px 4px #8a8383;
+    }
+  }
+}
+.title-bar {
+  background-image: url('@|title.png|');
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  line-height: 50px;
+  color: #3844ac;
+  font-size: 22px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+.tab-box {
+  background-image: url('@|tab-bar-bg.png|');
+  height: 35px;
+  line-height: 35px;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  color: #868585;
+  background-color: #e5f4ff;
+  border-top: 3px solid #53d9f6;
+  margin-bottom: 30px;
+  font-size: 16px;
+  .item-select {
+    float: left;
+    width: 25%;
+    cursor: pointer;
+  }
+  .item-select:hover {
+    color: #3844ac;
+  }
+}
+.LbWMGSGs {
+  margin-bottom: 40px;
+}
+#copyright {
+  color: white;
+}
+</style>
